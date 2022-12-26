@@ -1,0 +1,121 @@
+@import "src/assets/style/flex";
+@import "src/assets/style/variables";
+
+
+.practice-sort{
+   background-color: black;
+  margin-top: 100px;
+  min-height: 750px;
+
+
+
+}
+.practice-images{
+ flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and (max-width: 1174px){
+   gap: 20px;
+
+  }
+  @media screen and (max-width: 788px){
+    justify-content: center;
+
+
+  }
+
+
+.images-sort-fon{
+    width: 450px;
+  height: 450px;
+  background-color: $antiquewhite;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+
+  @media screen and (max-width: 1467px){
+    width: 350px;
+    height: 450px;
+
+  }
+  @media screen and (max-width: 1174px){
+
+  }
+  @media screen and (max-width: 788px){
+    width: 100%;
+
+
+  }
+
+
+}
+
+
+  .images-sort{
+     margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+
+
+  }
+}
+.practice-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   h1{
+      font-size: $font-size-30;
+       margin-top: 20px;
+   }
+
+  p{
+     max-width: 350px;
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 2px;
+  font-size: $font-size-18;
+  }
+
+  span {
+     margin-top: 20px;
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+  }
+}
+.practice-info-hateful{
+   text-align: center;
+  margin-top: 50px;
+  font-size: $font-size-40;
+
+  h1{
+     color: white;
+  }
+
+  button{
+     width: 20%;
+    height: 60px;
+    background-color: #e35959;
+    font-size:20px ;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    transition: .4s;
+
+
+    &:hover{
+       color: black;
+      transition: .4s;
+    }
+  }
+}
+

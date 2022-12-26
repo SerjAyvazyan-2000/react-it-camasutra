@@ -1,0 +1,30 @@
+@import "src/assets/style/fonts/style";
+
+
+
+.slider-img{
+   width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+  .slider-bg{
+    background-color : black;
+    opacity: .8;
+    width            : 100%;
+    height           : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
+.home-section{
+  width: 100%;
+}
+.welcome-gymster{
+
+}

@@ -1,0 +1,26 @@
+@import "src/assets/style/variables";
+
+.news-about-choose{
+   background-color: #555252;
+  text-align: center;
+  margin-top: 37px;
+
+  button{
+
+    margin: 20px;
+    width: 40%;
+    height: 55px;
+    color: red;
+   cursor: pointer;
+    font-size: 20px;
+
+    &.active{
+       background-color: blue;
+    }
+  }
+
+  p{
+     padding: 25px;
+    font-size: 20px;
+  }
+}
